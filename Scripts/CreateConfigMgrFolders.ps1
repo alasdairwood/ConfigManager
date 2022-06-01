@@ -14,7 +14,7 @@ If (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
 # specify the drive letter that you want the folders created on
 $SourcesDrive = "S:"
 # specify the ConfigMgr Admin
-$DomainName = "bts"
+$DomainName = "aiwtech"
 $CMAdmin = "$DomainName\Administrator"
 # Give the CMAdmin access to the following folders
 $OSDBootImagePath = "$SourcesDrive\SCCM\OSD"

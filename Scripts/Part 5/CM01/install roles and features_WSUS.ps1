@@ -13,10 +13,10 @@
         Write-Warning “You do not have Administrator rights to run this script!`nPlease re-run this script as an Administrator!”
         Break
     }
-$XMLpath = "C:\Scripts\Part 5\CM01\DeploymentConfigTemplate_WSUS.xml"
+$XMLpath = "C:\MECMSetupFiles\Part 5\CM01\DeploymentConfigTemplate_WSUS.xml"
 $WSUSFolder = "S:\WSUS"
 $SourceFiles = "D:\Sources\SXS"
-$ServerName="BTSCM01"
+$ServerName="LAR-MECM1"
 # create WSUS folder
 if (Test-Path $WSUSFolder){
  write-host "The WSUS folder already exists."

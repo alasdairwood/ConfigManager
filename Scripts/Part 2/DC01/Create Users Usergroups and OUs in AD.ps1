@@ -76,11 +76,11 @@ try {
 #
 # define these variables
 #
-$DistinguishedName="DC=bts,DC=lab,DC=local"
+$DistinguishedName="DC=aiwtech,DC=co,DC=uk"
 $OUroot="bts"
 $OUchild=@("Security Groups","Servers","Service Accounts","Users","Workstations")
-$OUchild2=@("SCCM","MDT","MBAM")
-$Password = "Emerald21$"
+$OUchild2=@("MECM","MDT","MBAM")
+$Password = "P@ssw0rd1"
 # Users
 $YourUserName = "Alasdair"
 $CMUsers = @("CM_BA", "CM_CP", "CM_JD", "CM_NAA", "CM_RS", "CM_TS", "CM_WS")
@@ -94,9 +94,9 @@ $MBAMUserGroups = @("MBAM_DB_RW","MBAM_HD", "MBAM_HD_Adv", "MBAM_HD_Report", "MB
 # "Windows Firewall: Allow inbound file and printer sharing exception: Enabled"
 # otherwise disable the lines at the bottom of this script.
   
-$Server = "BTSCM01"
+$Server = "LAR-MECM1"
 $Group = "Administrators"
-$Domain = "bts.lab.local"
+$Domain = "aiwtech.co.uk"
 
 #
 # add root OU

@@ -27,7 +27,7 @@ Function Get-CmConsolePath {
 #
 # schedule https://docs.microsoft.com/en-us/powershell/module/configurationmanager/new-cmschedule?view=sccm-ps
 #
-$SiteCode = "BTS"
+$SiteCode = "LAR"
 $StartDate = "2022/03/22 00:00:00"
 $EndDate = "2025/12/31 00:00:00"
 $RecurInterval = "days" # can be Minutes, Hours, days
@@ -37,7 +37,7 @@ $RecurCount = "1" # max 59
 $Enabled = $True
 $AddAdditionalAttribute = "IsaNoob", "NotaNoob", "noob"
 $RecursiveSearch = $True
-$OUDistinguishedName ="OU=bts,DC=bts,DC=lab,DC=local"
+$OUDistinguishedName ="OU=aiwtech,DC=aiwtech,DC=co,DC=uk"
 $OUParentName = "Active Directory System Discovery - $SiteCode"
 $LdapLocation = "LDAP://$($OUDistinguishedName)"
 $EnableDeltaDiscovery = $True

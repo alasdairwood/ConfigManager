@@ -18,13 +18,13 @@ $SourcePath = "S:\Sources\SCCM"
 # where is the media mounted ?
 $SCCMPath = "D:"
 $PrerequisitesPath = "$SourcePath" + "\SCCMPrereqs"
-$DestinationServer = "BTSCM01.bts.lab.local"
+$DestinationServer = "LAR-MECM1.aiwtech.co.uk"
 # Installation specific variables
 $Action="InstallPrimarySite"
 # enter your product ID (25 chars) or use EVAL for the evaluation version, to change from EVAL to the full edition see https://www.niallbrady.com/2016/12/08/how-can-i-change-system-center-configuration-manager-from-an-eval-edition-to-a-licensed-edition/
-$ProductID="BXH69-M62YX-QQD6R-3GPWX-8WMFY"
-$SiteCode="BTS"
-$Sitename="BTS Primary Site"
+$ProductID="EVAL"
+$SiteCode="LAR"
+$Sitename="LAR Primary Site"
 $SMSInstallDir="S:\SCCM"
 $SDKServer=$DestinationServer
 $RoleCommunicationProtocol="HTTPorHTTPS"
@@ -38,7 +38,7 @@ $DistributionPointInstallIIS="0"
 $AdminConsole="1"
 $JoinCEIP="0"
 $SQLServerName=$DestinationServer
-$DatabaseName="CM_BTS"
+$DatabaseName="CM_LAR"
 $SQLSSBPort="4022"
 $CloudConnector="1"
 $CloudConnectorServer=$DestinationServer

@@ -13,8 +13,8 @@
         Write-Warning “You do not have Administrator rights to run this script!`nPlease re-run this script as an Administrator!”
         Break
     }
-$domain = "bts"
-$password = "Emerald21$" | ConvertTo-SecureString -asPlainText -Force
+$domain = "AIWTECH"
+$password = "P@ssw0rd1" | ConvertTo-SecureString -asPlainText -Force
 $joindomainuser = "Administrator"
 
 $username = "$domain\$joindomainuser" 

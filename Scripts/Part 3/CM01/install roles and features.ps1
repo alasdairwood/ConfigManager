@@ -15,7 +15,7 @@ Else {
    break
  }}
 
-$XMLpath = "C:\Scripts\Part 3\CM01\DeploymentConfigTemplate.xml"
+$XMLpath = "C:\MECMSetupFiles\Part 3\CM01\DeploymentConfigTemplate.xml"
 $SourceFiles = "D:\Sources\SXS"
 $LogFile = "C:\Windows\Temp\InstallIISRole.log"
 

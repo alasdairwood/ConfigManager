@@ -17,7 +17,7 @@
 $folderpath="S:\Sources\SQL"
 $inifile="$folderpath\ConfigurationFile.ini"
 # next line sets user as a SQL sysadmin
-$yourusername="bts\administrator"
+$yourusername="aiwtech\administrator"
 # path to the SQL media
 $SQLsource="D:"
 $SQLInstallDrive = "M:"

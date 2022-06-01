@@ -25,7 +25,7 @@ Function Get-CmConsolePath {
 # below variables are customizable
 #
 # schedule https://docs.microsoft.com/en-us/powershell/module/configurationmanager/new-cmschedule?view=sccm-ps
-$SiteCode = "BTS"
+$SiteCode = "LAR"
 $StartDate = "2022/03/22 00:00:00"
 $EndDate = "2025/12/31 00:00:00"
 $RecurInterval = "days" # can be Minutes, Hours, days

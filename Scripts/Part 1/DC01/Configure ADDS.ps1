@@ -14,21 +14,21 @@
         Break
     }
 
-$DomainName = "bts.lab.local"
-$DomainNetbiosName = "BTS"
-$SafeModeAdministratorPassword = convertto-securestring "Emerald21$" -asplaintext -force
+$DomainName = "aiwtech.co.uk"
+$DomainNetbiosName = "AIWTECH"
+$SafeModeAdministratorPassword = convertto-securestring "P@ssw0rd1" -asplaintext -force
 $DomainMode = "WinThreshold"
 $ForestMode = "WinThreshold"
 $DatabasePath = "C:\Windows\NTDS"
 $LogPath = "C:\Windows\NTDS"
 $SysVolPath = "C:\Windows\SYSVOL"
-$DHCPServerIP="10.44.1.10"
-$DNSServerIP="10.44.1.10"
+$DHCPServerIP="10.44.1.5"
+$DNSServerIP="10.44.1.5"
 $StartRange="10.44.1.100"
 $EndRange="10.44.1.120"
 $Subnet="255.255.255.0"
 $Router="10.44.1.254"
-$DHCPScriptPath="C:\Scripts\Part 1\DC01\InstallDHCP.ps1"
+$DHCPScriptPath="C:\MECMSetupFiles\Part 1\DC01\InstallDHCP.ps1"
 $Logfile = "C:\Windows\Temp\ConfigureADDS.log"
 
 Function LogWrite

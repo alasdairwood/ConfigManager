@@ -21,7 +21,7 @@ Install-windowsfeature -name AD-Domain-Services –IncludeManagementTools
 Import-Module -Name ActiveDirectory
 # Derive domain name
 $namingContext = (Get-ADRootDSE).defaultNamingContext
-$ConfigMgrSrv = "BTSCM01"
+$ConfigMgrSrv = "LAR-MECM1"
 # Define path for System Management Container
 $sccmContainer = "CN=System Management,CN=System,$namingContext"
 # Get SID of SCCM Server
